@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+}
+
+.half-width {
+  width: 50%;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+.description {
+  font-size: 1.8rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.3em 0.8em;
+  background-image: linear-gradient(to right, orange, darkorange);
+  border-radius: 0.3em;
+  color: white;
+  margin-top: 1rem;
+}
+
+.align-center {
+  text-align: center;
+}
+.inline-margin {
+  margin-inline: 10rem;
+}
+.block-margin {
+  margin-block: 5rem;
+}
+.margin-bottom {
+  margin-bottom: 5rem;
+}
+.bottom-section {
+  padding: 3rem;
+}
+.card {
+  /* background-color: hsla(0, 0%, 80%, 1); */
+  width: 48%;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  /* padding-inline: 10rem; */
+}
+.content {
+  padding: 1rem 1rem 2rem 1rem;
+}
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+}
+#first-background {
+  background-image: url("./img/shapes/background-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#second-background {
+  background-image: url("./img/shapes/background-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  height: 200px;
+  background-color: hsla(225, 20%, 20%, 1);
+}
